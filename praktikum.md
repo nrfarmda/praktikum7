@@ -5,14 +5,14 @@
 show tables;
 ```
 ### Hasil
-![[mada6.png]]
+![](aset/mada6.png)
 ## Odproducts
 ### Struktur
 ```sql
 SELECT * FROM order_details;
 ```
 ### Hasil
-![[mada7.png]]
+![](aset/mada7.png)
 ### Analisis
 - `CREATE VIEW odproduct`: Untuk membuat tabel virtual dengan nama odproducts.
 - `AS SELECT`: Untuk memilih kolom-kolom mana saja yang ingin dipilih untuk dimasukkan ke tabel virtual.
@@ -28,7 +28,7 @@ SELECT * FROM order_details;
 SELECT * FROM orderdetails;
 ```
 ### Hasil
-![[mada8.png]]
+![](aset/mada8.png)
 ### Analisis
 - `SELECT`: Untuk memilih kolom mana saja yang ingin ditampilkan dan dihitung.
 - `c.customerID, c.companyName`: Kolom costumerID dan companyName dari tabel c(customers) dipilih untuk ditampilkan.
@@ -49,7 +49,7 @@ SELECT * FROM orderdetails;
 SELECT * FROM costumerid;
 ```
 ### Hasil
-![[mada9.png]]
+![](aset/mada9.png)
 ### Analisis
 - `SELECT`: Untuk memilih kolom mana saja yang ingin ditampilkan dan dibulatkan.
 - `C.customerID, C.companyName`: Kolom customeID dan companyName dari tabel c(customers) dipilih untuk ditampilkan.
